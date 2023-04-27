@@ -1,0 +1,123 @@
+
+/* The code on lines 3-7 makes the background of the header black and the text of the title of the webpage white. Change this to match what you want for your website! */
+header {
+    background-color: black;
+    color: #201d1d;
+    padding: 128px 16px;
+}
+img {
+  width: 500px;
+  border: black solid 1cm;
+  padding: 0.5cm;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+h1{
+    text-align:center;
+    color: black;
+    font-size: 500%;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+ 
+   
+}
+
+h2{
+    text-align:center;
+    color: black;
+    font-size: 110%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: black solid 0.2cm;
+    padding: 0.5cm;
+    line-height: 1.5;
+}
+
+h3{
+    text-align:center;
+    color: black;
+    font-size: 135%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: black solid 0.2cm;
+    padding: 0.5cm;
+    line-height: 1.5;
+}
+
+.stuff{
+    text-align:center;
+    color: black;
+    font-size: 135%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: solid red 0.2cm;
+    line-height: 1.5;
+    display: flex;
+    justify-content: space-between;
+    padding: 1cm;
+}
+.rainbow {
+  text-align: center;
+  font-size: 500%;
+  font-family: sans-serif;
+  letter-spacing: 5px;
+  animation: colorRotate 6s linear 0s infinite;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0px 4px #ffffff,
+               0px 8px #cccccc,
+               0px 12px #ababab,
+               0px 16px #7a7a7a,
+               0px 20px #787878,
+               0px 24px #696969,
+               0px 28px #525252,
+               0px 32px #2b2b2b,
+               0px 36px #000000;
+
+}
+
+@keyframes colorRotate {
+  from {
+    color: #ffffff;
+  }
+  10% {
+    color: #d9d9d9;
+  }
+  50% {
+    color: #878787;
+  }
+  75% {
+    color: #c7c7c7;
+  }
+  100% {
+    color: #ffffff;
+  }
+}
+
+body {
+  color: #878787;
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 3.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 2px;
+}
+
